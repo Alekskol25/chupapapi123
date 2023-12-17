@@ -8,7 +8,7 @@
 </div> */}
 
 let productsArray = [];
-let xhr = new HMLHttpRequest();
+let xhr = new XMLHttpRequest();
 let url = 'https://my-json-server.typicode.com/Alekskol25/chupapapi123';
 xhr.open('GET', url + 'products');
 xhr.responseType = 'json';
